@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuntimeLoadWavefrontOBJ.Windows", "RuntimeLoadWavefrontOBJ.Windows\RuntimeLoadWavefrontOBJ.Windows.csproj", "{C74981BD-A56F-49E8-871D-0371CB7425C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuntimeLoadWavefrontOBJ", "RuntimeLoadWavefrontOBJ\RuntimeLoadWavefrontOBJ.csproj", "{B8DFE029-6C64-4B76-9F3F-1CFF82085264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C74981BD-A56F-49E8-871D-0371CB7425C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74981BD-A56F-49E8-871D-0371CB7425C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74981BD-A56F-49E8-871D-0371CB7425C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74981BD-A56F-49E8-871D-0371CB7425C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DFE029-6C64-4B76-9F3F-1CFF82085264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DFE029-6C64-4B76-9F3F-1CFF82085264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DFE029-6C64-4B76-9F3F-1CFF82085264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DFE029-6C64-4B76-9F3F-1CFF82085264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A98ECA2F-B4AA-4427-877F-6EE62347BEB4}
+	EndGlobalSection
+EndGlobal
