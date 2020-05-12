@@ -85,7 +85,7 @@ namespace DynamicScrollingButtonList
             // https://github.com/stride3d/stride/blob/273dfddd462fd3746569f833e1493700c070b14d/sources/engine/Stride.UI.Tests/Regression/CanvasGridTest.cs
             for (int i=0; i< numButtons; i++) 
             { 
-            
+                var cur_i = i;
                 var startButton = new Button {
                     Content = new TextBlock {
                         Text = "Create Object #" + i,
@@ -103,9 +103,8 @@ namespace DynamicScrollingButtonList
                 startButton.Click += (object sender, Stride.UI.Events.RoutedEventArgs e) => 
                     { 
                         // do something to show we clicked a button
-                        // like set the text of some other UI control
-                        var num = i;
-                        DebugText.Print("Button Clicked #" + num, new Int2(50,50));                       
+                        // like set the text of some other UI control                        
+                        DebugText.Print("Button Clicked #" + cur_i, new Int2(50,50));                       
                     };
 
                 startButton.DependencyProperties.Set(GridBase.RowPropertyKey,i/2);
