@@ -88,7 +88,7 @@ namespace DynamicScrollingButtonList
                 var cur_i = i;
                 var startButton = new Button {
                     Content = new TextBlock {
-                        Text = "Create Object #" + i,
+                        Text = "Button #" + i,
                         Font = myFont, TextColor = Color.Black, 
                         HorizontalAlignment = HorizontalAlignment.Center, 
                         VerticalAlignment = VerticalAlignment.Center,
